@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+from scipy.stats import norm
 
 
 def lhs(dim, nsamples, centered=False,
@@ -23,6 +25,7 @@ def lhs(dim, nsamples, centered=False,
     :rtype: :class:`numpy.ndarray`
     """
     rs = np.random.default_rng(seed)
+    rs2 = np.random.default_rng(seed)
     # Make the random pairings
     H = np.zeros((nsamples, dim))
     if centered:
@@ -37,7 +40,36 @@ def lhs(dim, nsamples, centered=False,
     else:
         u = rs.random((nsamples, dim))
         for j in range(dim):
-            H[:, j] = rs.permutation(np.arange(nsamples))/nsamples + u[:,j]/nsamples
+            H[:, j] = rs2.permutation(np.arange(nsamples))/nsamples + u[:,j]/nsamples
         if return_original:
             return u, H
     return H
+
+
+def resample(df, nsamples=20, centered=True):
+    """
+    Resample a dataset using Latin Hypercube samples.
+    """
+    # compute mean and covariance matrix of the 
+    # dataset
+    mean = df.mean().values
+    U = np.linalg.cholesky(df.cov().values)
+    ndim = mean.shape[0] 
+    smp = lhs(ndim, nsamples, centered=centered)
+
+    lh_samples = []
+    for i in range(ndim):
+        lh_samples.append(norm.ppf(smp[:, i], loc=0, scale=1))
+    lh_samples = np.vstack((lh_samples))
+    lh_samples = np.dot(U, lh_samples)
+    lh_samples = lh_samples+mean[:, np.newaxis]
+        
+    dfr = pd.DataFrame(lh_samples.T, columns=df.columns)
+    dfr['Category'] = ['resampled']*dfr.shape[0]
+    df['Category'] = ['original']*df.shape[0]
+    dfr = pd.concat((df, dfr)).reset_index()
+    return dfr
+
+
+
+

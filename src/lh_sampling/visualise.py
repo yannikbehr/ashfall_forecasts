@@ -1,6 +1,9 @@
+import warnings
+
 import numpy as np
 from scipy.stats import norm, multivariate_normal
 import matplotlib.pyplot as plt
+import seaborn as sns
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
@@ -134,3 +137,19 @@ def plot_lhs(nsamples=14, figname=None):
     plt.yticks([])
     if figname is not None:
         fig.savefig(figname, bbox_inches='tight', dpi=300)
+
+def scatter_matrix_plot(df, hue):
+    """
+    Scatter matrix plot of eruption parameters.
+    """
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        g = sns.PairGrid(df, vars=['log Duration', 'log MER',
+                                   'log Column height'], hue=hue,
+                         diag_sharey=False, height=3)
+        g.map_upper(sns.scatterplot, s=15)
+        g.map_lower(sns.kdeplot)
+        g.map_diag(sns.ecdfplot, lw=2)
+        g.add_legend()
+        return g
+

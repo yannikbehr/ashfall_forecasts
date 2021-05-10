@@ -90,11 +90,11 @@ MX_ECH_19820329_A1,El Chichon,341120,El Chichon 1982 03 March 29 A-1,Intermediat
 MX_ECH_19820404_B,El Chichon,341120,El Chichon 1982 04 April 04 B,Intermediate,Magmatic large,1.9E+08,PUB_CAL,1.3,32,33,CAL_A02_APX,4.0,UDS
 MX_ECH_19820404_C,El Chichon,341120,El Chichon 1982 04 April 04 C,Intermediate,Magmatic large,1.3E+08,PUB_CAL,1.3,29,30,CAL_A02_APX,7.0,UDS
 NI_CNG_1867,Cerro Negro,344070,Cerro Negro 1867,Mafic,Magmatic small to moderate,3.08E+04,THS_VDD,0.7,3.3,4.0,CAL_A02,67.2,VIS_DAY
-NI_CNG_1923,Cerro Negro,344070,Cerro Negro 1923,Mafic,Magmatic small to moderate,3.96E+03,THS_VDD,0.7,2.0,2.7,CAL_A02,"1,176.0",VIS_DAY
+NI_CNG_1923,Cerro Negro,344070,Cerro Negro 1923,Mafic,Magmatic small to moderate,3.96E+03,THS_VDD,0.7,2.0,2.7,CAL_A02,"1176.0",VIS_DAY
 NI_CNG_1947,Cerro Negro,344070,Cerro Negro 1947,Mafic,Magmatic small to moderate,3.54E+05,THS_VDD,0.7,6,7,CAL_A02,19.2,VIS_DAY
 NI_CNG_1950,Cerro Negro,344070,Cerro Negro 1950,Mafic,Magmatic small to moderate,1.32E+03,THS_VDD,0.7,1.5,2.2,CAL_A02,624.0,VIS_DAY
 NI_CNG_1957,Cerro Negro,344070,Cerro Negro 1957,Mafic,Magmatic small to moderate,2.20E+03,THS_VDD,0.7,1.7,2.4,CAL_A02,360.0,VIS
-NI_CNG_1968,Cerro Negro,344070,Cerro Negro 1968,Mafic,Magmatic small to moderate,2.64E+03,THS_VDD,0.7,1.8,2.5,CAL_A02,"1,008.0",UDS_DAY
+NI_CNG_1968,Cerro Negro,344070,Cerro Negro 1968,Mafic,Magmatic small to moderate,2.64E+03,THS_VDD,0.7,1.8,2.5,CAL_A02,"1008.0",UDS_DAY
 NI_CNG_1971,Cerro Negro,344070,Cerro Negro 1971,Mafic,Magmatic small to moderate,5.06E+04,THS_VDD,0.7,3.8,4.5,CAL_A02,168.0,UDS_DAY
 NI_CNG_19920409,Cerro Negro,344070,Cerro Negro 1992 04 April 9,Mafic,Magmatic small to moderate,3.78E+05,THS_VDD,0.7,6,7,CAL_A02,16.8,UDS_DAY
 NI_CNG_19950529,Cerro Negro,344070,Cerro Negro 1995 05 May 29,Mafic,Steam-driven,,,0.7,0.3,1.0,UDS_PVD_MAX,,
