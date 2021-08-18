@@ -1,0 +1,301 @@
+ID,Volcano,GVP Volcano Number,Eruption_name,Magma_type,Eruption_type,MER_kg/s,MER_note,Vent_elevation_km,Column_height_km,Column_top_altitude_km,Column_height_note,Duration_hr,Duration_note,IVESPA
+CL_CAL_20150422,Calbuco,358020,Calbuco 2015 04 April 22,Intermediate,Magmatic small to moderate,1.9E+07,THS_CMD_ERR_IVS,2.0,18,20,UDS_PVD_ERR_IVS,1.5,UDS_ERR_IVS,Y
+CL_CAL_20150423,Calbuco,358020,Calbuco 2015 04 April 23,Intermediate,Magmatic small to moderate,1.3E+07,THS_CMD_ERR_IVS,2.0,19,21,UDS_PVD_ERR_IVS,6.1,UDS_ERR_IVS,Y
+CL_CHT_20080502,Chaiten,358041,Chaiten 2008 05 May 02,Silicic,Magmatic large,1.90E+05,THS_CMD_ERR_IVS,1.1,16,17,UDS_PVD_ERR_IVS,6.0,UDS_ERR_IVS,UMCD
+CL_CHT_20080503,Chaiten,358041,Chaiten 2008 05 May 03,Silicic,Magmatic small to moderate,1.2E+06,THS_CMD_ERR_IVS,1.1,9,10,UDS_PVD_ERR_IVS,60.0,UDS_ERR_IVS,Y
+CL_CHT_20080506,Chaiten,358041,Chaiten 2008 05 May 06,Silicic,Magmatic large,1.7E+07,THS_CMD_ERR_IVS,1.1,19,20,VIS_A06,3.5,UDS_ERR_IVS,UM_D
+CL_HUD_19910808,Mt Hudson,358057,Mt Hudson 1991 08 August 08,Mafic,Steam-driven,3.5E+06,THS_CMD_ERR_IVS,1.9,9,11,UDS_PVD_ERR_IVS,16.0,UDS_ERR_IVS,UMCD
+CL_HUD_19910812,Mt Hudson,358057,Mt Hudson 1991 08 August 12,Intermediate,Magmatic large,7E+07,PUB_UDS,1.9,14,16,UDS_PVD_ERR_IVS,31.0,UDS,U_C_
+CL_LSC_19930419,Láscar,355100,Láscar 1993 04 April 19,Intermediate,Magmatic small to moderate,2.3E+06,THS_CMD_ERR_IVS,5.5,10,15,UDS_PVD_ERR_IVS,30.0,UDS_ERR_IVS,Y
+CL_PCC_20110604,Puyehue-Cordón Caulle,357150,Puyehue-Cordón Caulle 2011 06 June 04,Silicic,Magmatic small to moderate,4.6E+06,THS_CMD_ERR_IVS,1.5,11,12,UDS_PVD_ERR_IVS,27.0,UDS_ERR_IVS,Y
+CL_PCC_20110606H,Puyehue-Cordón Caulle,357150,Puyehue-Cordón Caulle 2011 06 June 07 H,Silicic,Magmatic small to moderate,4.0E+06,THS_CMD_ERR_IVS,1.5,10,11,UDS_PVD_ERR_IVS,9.0,UDS_ERR_IVS,Y
+CL_PCC_20110606K2,Puyehue-Cordón Caulle,357150,Puyehue-Cordón Caulle 2011 06 June 07 K2,Silicic,Magmatic small to moderate,8.4E+05,THS_CMD_ERR_IVS,1.5,6,8,UDS_PVD_ERR_IVS,9.3,UDS_ERR_IVS,Y
+CL_QZP_19320410,Quizapu,357060,Quizapu 1932 04 April 10-11,Intermediate,Magmatic large,1.5E+08,PUB_UDS,3.2,20,23,UDS_PVD_ERR_IVS,18.0,UDS_MIN,U_C_
+CL_VLR_20150303,Villarrica,357120,Villarrica 2015 03 March 03,Mafic,Magmatic small to moderate,9.4E+05,THS_CMD_ERR_IVS,2.8,6,9,UDS_PVD_ERR_IVS,0.4,UDS_ERR_IVS,Y
+CO_NDR_19851113,Nevado del Ruiz,351020,Nevado del Ruiz 1985 11 November 13,Intermediate,Magmatic large,1.7E+07,THS_CMD_ERR_IVS,5.3,11,16,UDS_PVD_ERR_IVS,0.6,UDS_ERR_IVS,UMCD
+EC_CPX_20150814,Cotopaxi,352050,Cotopaxi 2015 08 August 14,Intermediate,Steam-driven,3.1E+03,THS_CMD_ERR_IVS,6.0,7,13,UDS_PVD_ERR_IVS,14.0,UDS_ERR_IVS,Y
+EC_CPX_20150815,Cotopaxi,352050,Cotopaxi 2015 08 August 15,Intermediate,Steam-driven,3.7E+02,THS_CMD_ERR_IVS,6.0,2.5,8.5,UDS_PVD_ERR_IVS,580.0,UDS_ERR_IVS,Y
+EC_CPX_20151002,Cotopaxi,352050,Cotopaxi 2015 10 October 02,Intermediate,Steam-driven,1.6E+02,THS_CMD_ERR_IVS,6.0,2.0,8.0,UDS_PVD_ERR_IVS,390.0,UDS_ERR_IVS,Y
+EC_CPX_20151104,Cotopaxi,352050,Cotopaxi 2015 11 November 04,Intermediate,Steam-driven,1.9E+01,THS_CMD_ERR_IVS,6.0,1.5,7.5,UDS_PVD_ERR_IVS,500.0,UDS_ERR_IVS,Y
+EC_QLT_800BP_Q1,Quilotoa,352060,Quilotoa Geology 800 yBP Q-1,Intermediate,Magmatic large,2E+08,PUB_CAL,3.9,31,35,CAL_PVD,62.0,CAL,D
+EC_RVT_20021103,Reventador,352010,Reventador 2002 11 November 03,Intermediate,Magmatic small to moderate,5E+07,THS_CMD_ERR_IVS,3.6,13,17,UDS_PVD_ERR_IVS,17.3,UDS_ERR_IVS,UM_D
+EC_TGH_20010804,Tungurahua,352080,Tungurahua 2001 08 August 04,Intermediate,Magmatic small to moderate,4.9E+03,THS_CMD_ERR_IVS,5.0,3.4,8.4,UDS_PVD_ERR_IVS,348.0,UDS_ERR_IVS,Y
+EC_TGH_20060817,Tungurahua,352080,Tungurahua 2006 08 August 17,Intermediate,Magmatic small to moderate,1.4E+06,THS_CMD_ERR_IVS,5.0,11,16,UDS_PVD_ERR_IVS,5.0,UDS_ERR_IVS,Y
+EC_TGH_20130817,Tungurahua,352080,Tungurahua 2013 07 July 14,Intermediate,Magmatic small to moderate,1.9E+05,THS_CMD_ERR_IVS,5.0,6,11,UDS_PVD_ERR_IVS,1.0,UDS_ERR_IVS,Y
+EC_TGH_20140201,Tungurahua,352080,Tungurahua 2014 02 February 01,Intermediate,Magmatic small to moderate,3.5E+06,THS_CMD_ERR_IVS,5.0,9,14,UDS_PVD_ERR_IVS,0.4,UDS_ERR_IVS,Y
+GB_SHM_19970926,Soufrière Hills Montserrat,360050,Soufrière Hills Montserrat 1997 09 September 26,Intermediate,Magmatic small to moderate,1.5E+05,THS_CMD_ERR_IVS,0.9,10,11,UDS_PVD_ERR_IVS,1.0,UDS_ERR_IVS,Y
+GR_NSY_LP_north,Nisyros,212050,Nisyros Geology Lower Pumice north vent,Silicic,Magmatic small to moderate,1.8E+07,PUB_CAL_ERR,0.7,14,15,CAL_PVD_ERR,4.4,CAL,D
+GR_NSY_LP_south,Nisyros,212050,Nisyros Geology Lower Pumice south vent,Silicic,Magmatic small to moderate,1.19E+08,PUB_CAL_ERR,0.7,14,15,CAL_PVD_ERR,9.5,CAL,D
+GR_NSY_UP_north,Nisyros,212050,Nisyros Geology Upper Pumice north vent,Silicic,Magmatic small to moderate,1.4E+07,PUB_CAL_ERR,0.7,9,10,CAL_PVD,3.5,CAL,D
+GR_NSY_UP_south,Nisyros,212050,Nisyros Geology Upper Pumice south vent,Silicic,Magmatic small to moderate,1.6E+07,PUB_CAL_ERR,0.7,14,15,CAL_PVD_ERR,1.7,CAL,D
+GT_FUE_19710914,Fuego,342090,Fuego 1971 09 September 14,Mafic,Magmatic small to moderate,1.7E+06,PUB_UDS,3.8,6,10,VIS_A06,12.0,UDS,N
+GT_FUE_19741014,Fuego,342090,Fuego 1974 10 October 14,Mafic,Magmatic small to moderate,3E+06,PUB_VDD,3.8,11,15,UDS_PVD,5.0,UDS,N
+GT_SMA_19021025,Santa Maria,342030,Santa Maria 1902 10 October 25,Intermediate,Magmatic large,2.5E+08,PUB_UDS_MID,3.7,25,28,UDS_PVD_EMN,19.0,UDS,D
+ID_AGU_19630316,Agung,264020,Agung 1963 03 March 16,Intermediate,Magmatic small to moderate,2.0E+07,THS_CMD_ERR_IVS,3.1,10,13,UDS_PVD_ERR_IVS,5.3,UDS_ERR_IVS,Y
+ID_AGU_19630516,Agung,264020,Agung 1963 05 May 16,Intermediate,Magmatic small to moderate,2.2E+07,THS_CMD_ERR_IVS,3.1,10,13,UDS_PVD_ERR_IVS,4.5,UDS_ERR_IVS,Y
+ID_AKT_20191222_Sus,Anak Krakatau,262000,Anak Krakatau 2019 12 December 22 Sustained,Intermediate,Magmatic small to moderate,5E+05,PUB_INS,0.3,,,,10.0,UDS,D
+ID_AKT_20191222_Vul,Anak Krakatau,262000,Anak Krakatau 2019 12 December 22 Vulcanian,Intermediate,Magmatic small to moderate,9E+05,PUB_INS,0.3,15,15,UDS_A06,0.7,UDS,D
+ID_KLD_19510830,Kelud,263280,Kelud 1951 08 August 30,Intermediate,Magmatic small to moderate*,3.5E+06,THS_CMD_ERR_IVS,1.7,8,10,UDS_PVD_ERR_IVS,9.5,UDS_ERR_IVS,Y
+ID_KLD_19900210,Kelud,263280,Kelud 1990 02 February 10,Intermediate,Magmatic small to moderate,6.9E+06,THS_CMD_ERR_IVS,1.7,10,12,UDS_PVD_ERR_IVS,4.0,UDS_ERR_IVS,Y
+ID_KLD_20140213,Kelud,263280,Kelud 2014 02 February 13,Mafic,Magmatic large,6.5E+07,PUB_VDD_ERR,1.7,17,17,SAT_PVD,2.3,UDS,N
+ID_MRP_20040420,Merapi,263250,Merapi 2014 04 April 20,Intermediate,Steam-driven,,,2.9,,,,0.4,INS,D
+ID_MRP_20101104,Merapi,263250,Merapi 2010 11 November 04,Intermediate,Magmatic small to moderate,1.7E+05,THS_CMD_ERR_IVS,3.0,14,17,UDS_PVD_ERR_IVS,36.0,UDS_ERR_IVS,Y
+ID_RNJ_20160801,Rinjani,264030,Rinjani 2016 08 August 01,Intermediate,Magmatic small to moderate,,,3.7,6,10,VIS_PVD,2.0,UDS,D
+ID_TAM_1815,Tambora,264040,Tambora Geology 1815,Intermediate,Magmatic large,2E+09,PUB_CAL,2.9,39,42,CAL_A06_MID,3.5,VIS_MID,D
+IS_EYJ_20100414,Eyjafjallajökull,372020,Eyjafjallajökull 2010 04 April 14,Mafic,Steam-driven,5.1E+05,THS_CMD_ERR_IVS,1.7,4.0,5.7,UDS_PVD_ERR_IVS,71.0,UDS_ERR_IVS,Y
+IS_EYJ_20100417,Eyjafjallajökull,372020,Eyjafjallajökull 2010 04 April 17,Mafic,Steam-driven,3.7E+05,THS_CMD_ERR_IVS,1.7,3.9,5.6,UDS_PVD_ERR_IVS,30.0,UDS_ERR_IVS,Y
+IS_EYJ_20100418,Eyjafjallajökull,372020,Eyjafjallajökull 2010 04 April 18,Mafic,Magmatic small to moderate,8.6E+04,THS_CMD_ERR_IVS,1.7,2.9,4.6,UDS_PVD_ERR_IVS,822.0,UDS_ERR_IVS,Y
+IS_EYJ_20100504,Eyjafjallajökull,372020,Eyjafjallajökull 2010 05 May 04,Mafic,Magmatic small to moderate,9.0E+04,THS_CMD_ERR_IVS,1.7,3.4,5.1,UDS_PVD_ERR_IVS,90.0,UDS_ERR_IVS,Y
+IS_GRV_20041102C,Grímsvötn,373010,Grímsvötn 2004 11 November 02 C,Mafic,Steam-driven,4.3E+05,THS_CMD_ERR_IVS,1.4,10,11,UDS_PVD_ERR_IVS,18.1,UDS_ERR_IVS,Y
+IS_GRV_20041102E,Grímsvötn,373010,Grímsvötn 2004 11 November 02 E,Mafic,Steam-driven,2.1E+05,THS_CMD_ERR_IVS,1.4,7,9,UDS_PVD_ERR_IVS,12.9,UDS_ERR_IVS,Y
+IS_GRV_20110521,Grímsvötn,373010,Grímsvötn 2011 05 May 21,Mafic,Steam-driven,7.5E+06,THS_CMD_ERR_IVS,1.5,15,16,UDS_PVD_ERR_IVS,27.0,UDS_ERR_IVS,Y
+IS_HEK_1104_H1,Hekla,372070,Hekla Geology 1104 H1,Silicic,Magmatic large,8.6E+07,PUB_CAL_MID,1.5,22,23,CAL_A02_MID,12.0,UDS_VAG,D
+IS_HEK_1158,Hekla,372070,Hekla Geology 1158,Intermediate,Magmatic small to moderate,3.8E+07,PUB_CAL_MID,1.5,18,19,CAL_A02_MID,24.0,UDS_MAX,D
+IS_HEK_1300_D,Hekla,372070,Hekla Geology 1300-D,Intermediate,Magmatic large,9.5E+07,PUB_CAL_MID,1.5,23,24,CAL_A02_MID,24.0,UDS_VAG,D
+IS_HEK_1673,Hekla,372070,Hekla Geology 1673,Intermediate,Magmatic small to moderate,2.1E+07,PUB_CAL_MID,1.5,15,16,CAL_A02_MID,0.8,UDS_MID,D
+IS_HEK_17660405,Hekla,372070,Hekla Geology 1766 04 April 05 subplinian phase,Intermediate,Magmatic small to moderate,3.1E+07,PUB_CAL_MID,1.5,18,19,CAL_A02_MID,5.5,UDS_MID,D
+IS_HEK_19470329_1grey,Hekla,372070,Hekla Geology 1947 03 March 29 1 brownish-grey ash,Intermediate,Magmatic small to moderate,5.6E+06,THS_CMD_ERR_IVS,1.4,27,28,UDS_PVD_ERR_IVS,0.5,UDS_ERR_IVS,UMCD
+IS_HEK_19470329_2black,Hekla,372070,Hekla Geology 1947 03 March 29 2 brownish-black ash,Intermediate,Magmatic small to moderate,6.6E+00,THS_CMD_ERR_IVS,1.4,15,16,UDS_PVD_ERR_IVS,2.0,UDS_ERR_IVS,UMCD
+IS_HEK_19700505,Hekla,372070,Hekla 1970 05 May 05,Mafic,Magmatic large,6.0E+06,THS_CMD,1.5,15,14,UDS_PVD_ERR_IVS,2.0,UDS,U_C_
+IS_HEK_19800817,Hekla,372070,Hekla 1980 08 August 17,Intermediate,Magmatic large,2E+06,PUB_UDS,1.5,14,14,UDS_PVD_ERR_IVS,5.0,UDS,U_C_
+IS_HEK_19910117,Hekla,372070,Hekla 1991 01 January 17 phase 1,Mafic,Magmatic small to moderate,9.70E+06,PUB_CAL_MID,1.5,11,12,VIS_PVD_ERR,0.8,UDS,N
+IS_HEK_20000226,Hekla,372070,Hekla 2000 02 February 26,Intermediate,Steam-driven,8.5E+05,THS_CMD_ERR_IVS,1.5,10,11,UDS_PVD_ERR_IVS,3.3,UDS_ERR_IVS,Y
+IT_ETN_19980722,Etna,211060,Etna 1998 07 July 22,Mafic,Magmatic small to moderate,1.9E+06,THS_CMD_ERR_IVS,3.3,8,11,UDS_PVD_ERR_IVS,0.5,UDS_ERR_IVS,Y
+IT_ETN_20010719,Etna,211060,Etna 2001 07 July 19-24,Mafic,Steam-driven,6.6E+03,THS_CMD_ERR_IVS,2.6,1.3,3.9,UDS_PVD_MID,73.5,UDS_ERR_IVS,UM_D
+IT_ETN_20021027,Etna,211060,Etna 2002 10 October 27,Mafic,Steam-driven,2.4E+04,THS_CMD_ERR_IVS,2.8,3.2,6.0,UDS_PVD_ERR_IVS,10.0,UDS_ERR_IVS,Y
+IT_ETN_20021028,Etna,211060,Etna 2002 10 October 28,Mafic,Steam-driven,4.9E+04,THS_CMD_ERR_IVS,2.8,4.2,7.0,UDS_PVD_ERR_IVS,6.0,UDS_ERR_IVS,Y
+IT_ETN_20021031,Etna,211060,Etna 2002 10 October 31,Mafic,Steam-driven,3.1E+04,THS_CMD_ERR_IVS,2.8,3.7,6.5,UDS_PVD_ERR_IVS,4.0,UDS_ERR_IVS,Y
+IT_ETN_20021104,Etna,211060,Etna 2002 11 November 4,Mafic,Steam-driven,2.1E+04,THS_CMD_ERR_IVS,2.8,2.9,5.7,UDS_PVD_ERR_IVS,18.0,UDS_ERR_IVS,Y
+IT_ETN_20061116,Etna,211060,Etna 2006 11 November 16,Mafic,Magmatic small to moderate,2.4E+02,THS_CMD_ERR_IVS,3.3,0.6,3.9,UDS_PVD_ERR_IVS,8.0,UDS_ERR_IVS,Y
+IT_ETN_20061124,Etna,211060,Etna 2006 11 November 24,Mafic,Magmatic small to moderate,4.3E+03,THS_CMD_ERR_IVS,2.8,2.0,4.8,UDS_PVD_ERR_IVS,11.5,UDS_ERR_IVS,Y
+IT_ETN_20110112,Etna,211060,Etna 2011 01 January 12,Mafic,Magmatic small to moderate,2.5E+04,THS_CMD_ERR_IVS,3.2,6.0,9.0,UDS_PVD_ERR_IVS,1.7,UDS_ERR_IVS,Y
+IT_ETN_20110709,Etna,211060,Etna 2011 07 July 09,Mafic,Magmatic small to moderate,1.03E+05,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.6,UDS,D
+IT_ETN_20110725,Etna,211060,Etna 2011 07 July 25,Mafic,Magmatic small to moderate,3.02E+04,PUB_INS,3.3,,,,1.4,UDS,D
+IT_ETN_20110730,Etna,211060,Etna 2011 07 July 30,Mafic,Magmatic small to moderate,1.89E+05,PUB_INS,3.3,,,,0.8,UDS,D
+IT_ETN_20110805,Etna,211060,Etna 2011 08 August 05,Mafic,Magmatic small to moderate,1.47E+05,PUB_INS,3.3,,,,0.9,UDS,D
+IT_ETN_20110812,Etna,211060,Etna 2011 08 August 12,Mafic,Magmatic small to moderate,8.20E+04,PUB_INS,3.3,6,10,VIS_PVD,0.6,UDS,D
+IT_ETN_20110820,Etna,211060,Etna 2011 08 August 20,Mafic,Magmatic small to moderate,1.22E+06,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.3,UDS,D
+IT_ETN_20110829,Etna,211060,Etna 2011 08 August 29,Mafic,Magmatic small to moderate,2.77E+05,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.3,UDS,D
+IT_ETN_20110908,Etna,211060,Etna 2011 09 September 08,Mafic,Magmatic small to moderate,1.47E+05,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.8,UDS,D
+IT_ETN_20110919,Etna,211060,Etna 2011 09 September 19,Mafic,Magmatic small to moderate,2.05E+05,PUB_INS,3.3,1.7,5.0,VIS_PVD_ERR,0.2,UDS,D
+IT_ETN_20110928,Etna,211060,Etna 2011 09 September 28,Mafic,Magmatic small to moderate,1.34E+06,PUB_INS,3.3,,,,0.3,UDS,D
+IT_ETN_20111008,Etna,211060,Etna 2011 10 October 08,Mafic,Magmatic small to moderate,1.91E+05,PUB_INS,3.3,4.2,7.5,VIS_PVD_ERR,0.3,UDS,D
+IT_ETN_20111115,Etna,211060,Etna 2011 11 November 15,Mafic,Magmatic small to moderate,6.90E+05,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.7,UDS,D
+IT_ETN_20120105,Etna,211060,Etna 2012 01 January 05,Mafic,Magmatic small to moderate,1.32E+06,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.7,UDS,D
+IT_ETN_20120209,Etna,211060,Etna 2012 02 February 09,Mafic,Magmatic small to moderate,2.99E+04,PUB_INS,3.3,4.7,8.0,VIS_PVD_ERR,2.8,UDS,D
+IT_ETN_20120318,Etna,211060,Etna 2012 03 March 18,Mafic,Magmatic small to moderate,8.50E+04,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.8,UDS,D
+IT_ETN_20120412,Etna,211060,Etna 2012 04 April 12,Mafic,Magmatic small to moderate,5.84E+05,PUB_INS,3.3,4.3,7.6,VIS_PVD,0.5,UDS,D
+IT_ETN_20120424,Etna,211060,Etna 2012 04 April 24,Mafic,Magmatic small to moderate,7.59E+05,PUB_INS,3.3,,,,0.6,UDS,D
+IT_ETN_20130220,Etna,211060,Etna 2013 02 February 20,Mafic,Magmatic small to moderate,1.23E+05,PUB_INS,3.3,,,,0.2,UDS,D
+IT_ETN_20130221,Etna,211060,Etna 2013 02 February 21,Mafic,Magmatic small to moderate,1.96E+05,PUB_INS,3.3,,,,0.4,UDS,D
+IT_ETN_20130223,Etna,211060,Etna 2013 02 February 23,Mafic,Magmatic small to moderate,2.53E+06,PUB_INS,3.3,4.8,8.1,UDS_PVD_ERR_IVS,1.1,UDS_ERR_IVS,U_CD
+IT_ETN_20130228,Etna,211060,Etna 2013 02 February 28,Mafic,Magmatic small to moderate,4.83E+05,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.4,UDS,D
+IT_ETN_20130305,Etna,211060,Etna 2013 03 March 05,Mafic,Magmatic small to moderate,9.24E+05,PUB_INS,3.3,,,,0.6,UDS,D
+IT_ETN_20130316,Etna,211060,Etna 2013 03 March 16,Mafic,Magmatic small to moderate,1.74E+06,PUB_INS,3.3,,,,0.2,UDS,D
+IT_ETN_20130418,Etna,211060,Etna 2013 04 April 18,Mafic,Magmatic small to moderate,8.75E+04,PUB_INS,3.3,6,9,VIS_PVD_MIN,0.9,UDS,D
+IT_ETN_20130420,Etna,211060,Etna 2013 04 April 20,Mafic,Magmatic small to moderate,6.56E+05,PUB_INS,3.3,,,,0.7,UDS,D
+IT_ETN_20131026,Etna,211060,Etna 2013 10 October 26,Mafic,Magmatic small to moderate,1.1E+04,THS_CMD_ERR_IVS,3.3,4.7,8.0,UDS_PVD_ERR_IVS,5.5,UDS_ERR_IVS,Y
+IT_ETN_20131111,Etna,211060,Etna 2013 11 November 11,Mafic,Magmatic small to moderate,9.49E+04,PUB_INS,3.3,,,,2.0,UDS,D
+IT_ETN_20131116,Etna,211060,Etna 2013 11 November 16,Mafic,Magmatic small to moderate,1.13E+05,PUB_INS,3.3,,,,1.6,UDS,D
+IT_ETN_20131123,Etna,211060,Etna 2013 11 November 23,Mafic,Magmatic small to moderate,3.26E+06,PUB_INS,3.3,7.8,11,VIS_PVD,0.3,UDS,N
+IT_ETN_20131128,Etna,211060,Etna 2013 11 November 28,Mafic,Magmatic small to moderate,8.04E+05,PUB_INS,3.3,,,,1.4,UDS,D
+IT_ETN_20131202,Etna,211060,Etna 2013 12 December 02,Mafic,Magmatic small to moderate,7.45E+05,PUB_INS,3.3,,,,1.1,UDS,D
+IT_ETN_20141228,Etna,211060,Etna 2014 12 December 28,Mafic,Magmatic small to moderate,2.69E+05,PUB_INS,3.3,,,,1.0,UDS,D
+IT_ETN_20151203,Etna,211060,Etna 2015 12 December 03 V1,Mafic,Magmatic small to moderate,2.70E+05,PUB_INS,3.2,13,16,INS_PVD,0.7,UDS,D
+IT_ETN_20151204_V2,Etna,211060,Etna 2015 12 December 04 V2,Mafic,Magmatic small to moderate,2.19E+05,PUB_INS,3.2,,,,0.4,UDS,D
+IT_ETN_20151204_V3,Etna,211060,Etna 2015 12 December 04 V3,Mafic,Magmatic small to moderate,3.69E+05,PUB_INS,3.2,,,,0.2,UDS,D
+IT_ETN_20151205,Etna,211060,Etna 2015 12 December 05 V4,Mafic,Magmatic small to moderate,1.59E+05,PUB_INS,3.2,,,,0.5,UDS,D
+IT_ETN_20160518,Etna,211060,Etna 2016 05 May 18,Mafic,Magmatic small to moderate,1.9E+03,THS_CMD_ERR_IVS,3.3,2.2,5.5,UDS_PVD_ERR_IVS,5.2,UDS_ERR_IVS,Y
+IT_ETN_20160521,Etna,211061,Etna 2016 05 May 21,Mafic,Magmatic small to moderate,7.1E+02,THS_CMD_ERR_IVS,3.3,2.7,6.0,UDS_PVD_ERR_IVS,2.2,UDS_ERR_IVS,Y
+IT_STB_20030405,Stromboli,211040,Stromboli 2003 04 April 05,Intermediate,Magmatic small to moderate,5.0E+06,THS_CMD_ERR_IVS,0.9,4.1,5.0,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+JP_ASN_20150914,Asosan,282110,Asosan 2015 09 September 14,Intermediate,Steam-driven,1.0E+05,THS_CMD_ERR_IVS,1.6,2.0,3.6,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+JP_FUJ_1707_A,Fuji,283030,Fuji Geology 1707 CE Unit A,Intermediate,Magmatic large,1.1E+07,PUB_CMD_ERR,3.8,23,27,CAL_A02_ERR,1.5,VIS,D
+JP_FUJ_1707_B,Fuji,283030,Fuji Geology 1707 CE Unit B,Intermediate,Magmatic large,3.0E+06,PUB_CMD_ERR,3.8,18,22,CAL_A02_ERR,4.0,VIS,D
+JP_FUJ_1707_C,Fuji,283030,Fuji Geology 1707 CE Unit C,Intermediate,Magmatic large,9.1E+06,PUB_CMD_ERR,3.8,22,26,CAL_A02_ERR,8.0,VIS,D
+JP_FUJ_1707_D,Fuji,283030,Fuji Geology 1707 CE Unit D,Intermediate,Magmatic large,5.0E+06,PUB_CMD_ERR,3.8,19,23,CAL_A02_ERR,5.0,VIS,D
+JP_FUJ_1707_EF,Fuji,283030,Fuji Geology 1707 CE Unit E & F,Intermediate,Magmatic large,3.3E+06,PUB_CMD_ERR,3.8,18,22,CAL_A02_ERR,15.5,VIS,D
+JP_FUJ_1707_G,Fuji,283030,Fuji Geology 1707 CE Unit G,Mafic,Magmatic small to moderate,4E+05,PUB_CMD_ERR,3.8,12,16,CAL_A02_ERR,15.5,VIS,D
+JP_FUJ_1707_H,Fuji,283030,Fuji Geology 1707 CE Unit H,Mafic,Magmatic small to moderate,2.3E+06,PUB_CMD_ERR,3.8,17,21,CAL_A02_ERR,17.5,VIS,D
+JP_FUJ_1707_I,Fuji,283030,Fuji Geology 1707 CE Unit I,Mafic,Magmatic small to moderate,1.1E+06,PUB_CMD_ERR,3.8,15,19,CAL_A02_ERR,16.0,VIS,D
+JP_FUJ_1707_J,Fuji,283030,Fuji Geology 1707 CE Unit J,Mafic,Magmatic small to moderate,2.0E+06,PUB_CMD_ERR,3.8,16,20,CAL_A02_ERR,16.5,VIS,D
+JP_FUJ_1707_K,Fuji,283030,Fuji Geology 1707 CE Unit K,Mafic,Magmatic small to moderate,2.0E+06,PUB_CMD_ERR,3.8,16,20,CAL_A02_ERR,8.5,VIS,D
+JP_FUJ_1707_L,Fuji,283030,Fuji Geology 1707 CE Unit L,Mafic,Magmatic small to moderate,5.5E+06,PUB_CMD_ERR,3.8,20,24,CAL_A02_ERR,9.0,VIS,D
+JP_FUJ_1707_M,Fuji,283030,Fuji Geology 1707 CE Unit M,Mafic,Magmatic small to moderate,1.4E+06,PUB_CMD_ERR,3.8,15,19,CAL_A02_ERR,8.0,VIS,D
+JP_FUJ_1707_N,Fuji,283030,Fuji Geology 1707 CE Unit N,Mafic,Magmatic small to moderate,6.2E+06,PUB_CMD_ERR,3.8,20,24,CAL_A02_ERR,4.5,VIS,D
+JP_FUJ_1707_O,Fuji,283030,Fuji Geology 1707 CE Unit O,Mafic,Magmatic small to moderate,1.1E+06,PUB_CMD_ERR,3.8,15,19,CAL_A02_ERR,33.5,VIS,D
+JP_FUJ_1707_P,Fuji,283030,Fuji Geology 1707 CE Unit P,Mafic,Magmatic small to moderate,2.7E+06,PUB_CMD_ERR,3.8,17,21,CAL_A02_ERR,11.5,VIS,D
+JP_FUJ_1707_Q,Fuji,283030,Fuji Geology 1707 CE Unit Q,Mafic,Magmatic small to moderate,9E+05,PUB_CMD_ERR,3.8,14,18,CAL_A02_ERR,57.0,VIS,D
+JP_IZO_19861121,Izu-Oshima,284010,Izu-Oshima 1986 11 November 21 Fissure B,Mafic,Magmatic small to moderate,8.40E+05,PUB_CAL,0.8,10,11,VIS_A06_MID,3.0,INS,D
+JP_KRM_20110127,Kirishimayama,282090,Kirishimayama 2011 01 January 26,Intermediate,Magmatic small to moderate,6.7E+05,THS_CMD_ERR_IVS,1.4,6,7,UDS_PVD_ERR_IVS,6.0,UDS_ERR_IVS,Y
+JP_KRM_20110128,Kirishimayama,282090,Kirishimayama 2011 01 January 27,Intermediate,Magmatic small to moderate,3.3E+05,THS_CMD_ERR_IVS,1.4,6,7,UDS_PVD_ERR_IVS,2.0,UDS_ERR_IVS,Y
+JP_MIY_20000708,Miyakejima,284040,Miyakejima 2000 07 July 08,Mafic,Steam-driven,2.1E+06,THS_VDD,0.8,1.5,2.3,UDS_PVD,0.3,UDS,N
+JP_MIY_20000809,Miyakejima,284040,Miyakejima 2000 08 August 09,Mafic,Steam-driven,5.5E+04,THS_CMD_ERR_IVS,0.8,8,9,UDS_PVD_ERR_IVS,6.3,UDS_ERR_IVS,Y
+JP_MIY_20000818,Miyakejima,284040,Miyakejima 2000 08 August 18,Mafic,Magmatic small to moderate,1.5E+04,THS_VDD,0.8,15,16,SAT_PVD,3.4,UDS,N
+JP_MIY_20000829,Miyakejima,284040,Miyakejima 2000 08 August 29,Mafic,Steam-driven,1.2E+06,THS_VDD_MAX,0.8,7,8,SAT_PVD,1.4,UDS_MIN,D
+JP_OTK_20140927,Ontakesan,283040,Ontakesan 2014 09 September 27,Intermediate,Steam-driven,4.6E+04,THS_CMD_ERR_IVS,2.7,3.3,6.0,UDS_PVD_ERR_IVS,6.0,UDS_ERR_IVS,Y
+MX_ECH_19820329_A1,El Chichon,341120,El Chichon 1982 03 March 29 A-1,Intermediate,Magmatic large,1.1E+08,PUB_CAL,1.3,17,18,CAL_A02_APX,5.5,UDS_MID,N
+MX_ECH_19820404_B,El Chichon,341120,El Chichon 1982 04 April 04 B,Intermediate,Magmatic large,1.9E+08,PUB_CAL,1.3,32,33,CAL_A02_APX,4.0,UDS,N
+MX_ECH_19820404_C,El Chichon,341120,El Chichon 1982 04 April 04 C,Intermediate,Magmatic large,1.3E+08,PUB_CAL,1.3,29,30,CAL_A02_APX,7.0,UDS,N
+MX_PPC_19960430,Popocatépetl,341090,Popocatépetl 1996 04 April 30,Intermediate,Magmatic small to moderate,1.1E+06,THS_CMD_ERR_IVS,5.5,4.0,9.5,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+MX_PPC_19961028,Popocatépetl,341090,Popocatépetl 1996 10 October 28,Intermediate,Magmatic small to moderate,1.2E+04,THS_CMD_ERR_IVS,5.5,3.0,8.5,UDS_PVD_ERR_IVS,0.5,UDS_ERR_IVS,Y
+MX_PPC_19970630,Popocatépetl,341090,Popocatépetl 1997 06 June 30,Intermediate,Magmatic small to moderate,1.4E+05,THS_CMD_ERR_IVS,5.5,8,14,UDS_PVD_ERR_IVS,2.2,UDS_ERR_IVS,Y
+NI_CNG_1867,Cerro Negro,344070,Cerro Negro 1867,Mafic,Magmatic small to moderate,3.08E+04,THS_VDD,0.7,3.3,4.0,CAL_A02,67.2,VIS_DAY,D
+NI_CNG_1923,Cerro Negro,344070,Cerro Negro 1923,Mafic,Magmatic small to moderate,3.96E+03,THS_VDD,0.7,2.0,2.7,CAL_A02,1176.0,VIS_DAY,D
+NI_CNG_1947,Cerro Negro,344070,Cerro Negro 1947,Mafic,Magmatic small to moderate,3.54E+05,THS_VDD,0.7,6,7,CAL_A02,19.2,VIS_DAY,D
+NI_CNG_1950,Cerro Negro,344070,Cerro Negro 1950,Mafic,Magmatic small to moderate,1.32E+03,THS_VDD,0.7,1.5,2.2,CAL_A02,624.0,VIS_DAY,D
+NI_CNG_1957,Cerro Negro,344070,Cerro Negro 1957,Mafic,Magmatic small to moderate,2.20E+03,THS_VDD,0.7,1.7,2.4,CAL_A02,360.0,VIS,D
+NI_CNG_1968,Cerro Negro,344070,Cerro Negro 1968,Mafic,Magmatic small to moderate,4.34E+03,THS_CMD_ERR_IVS,0.6,1.8,2.5,CAL_A02,980.0,UDS_ERR_IVS,UM_D
+NI_CNG_1971,Cerro Negro,344070,Cerro Negro 1971,Mafic,Magmatic small to moderate,8.71E+04,THS_CMD_ERR_IVS,0.7,3.8,4.5,CAL_A02,134.0,UDS_ERR_IVS,UM_D
+NI_CNG_19920409,Cerro Negro,344070,Cerro Negro 1992 04 April 9,Mafic,Magmatic small to moderate,3.78E+05,THS_VDD,0.7,4.8,5.5,UDS_PVD_ERR_IVS,16.8,UDS_DAY,U_C_
+NI_CNG_19950529,Cerro Negro,344070,Cerro Negro 1995 05 May 29,Mafic,Steam-driven,,,0.7,0.3,1.0,UDS_PVD_MAX,,,N
+NI_CNG_19951202,Cerro Negro,344070,Cerro Negro 1995 12 December 02-06,Mafic,Magmatic small to moderate,8.58E+03,THS_VDD,0.7,2.4,3.1,CAL_A02,96.0,UDS_DAY,N
+NI_CNG_19990805,Cerro Negro,344070,Cerro Negro 1999 08 August 05,Mafic,Magmatic small to moderate,1.2E+03,THS_CMD_ERR_IVS,0.7,3.8,4.5,UDS_PVD_ERR_IVS,30.0,UDS_ERR_IVS,Y
+NZ_NGA_197403,Ngauruhoe,241080,Ngauruhoe 1974 03 March 27-29,Mafic,Magmatic small to moderate,1.75E+05,THS_VDA,2.3,3,5.3,VIS_PVD_MAX,2.0,UDS,D
+NZ_NGA_19750219,Ngauruhoe,241080,Ngauruhoe 1975 02 February 19,Mafic,Magmatic small to moderate,7E+05,THS_VDA,2.3,7,9,VIS_PVD_MIN,2.0,UDS,N
+NZ_OKA_18860610,Okataina,241050,Tarawera 1886 06 June 10 Phase II,Mafic,Magmatic large,1E+08,PUB_VDD_EMN,1.1,28,29,CAL_A02,5.5,UDS_MAX,D
+NZ_OKA_Kaharoa_A,Okataina,241050,Okataina Geology AD 1314 Kaharoa A lapilli,Silicic,Magmatic small to moderate,2E+07,PUB_VDD,1.1,,,,3.1,CAL,D
+NZ_OKA_Kaharoa_B,Okataina,241050,Okataina Geology AD 1314 Kaharoa B lapilli,Silicic,Magmatic small to moderate,2E+08,PUB_VDD,1.1,,,,3.0,CAL,D
+NZ_OKA_Kaharoa_D,Okataina,241050,Okataina Geology AD 1314 Kaharoa D lapilli,Silicic,Magmatic small to moderate,1E+08,PUB_VDD,1.1,,,,3.7,CAL,D
+NZ_OKA_Kaharoa_E,Okataina,241050,Okataina Geology AD 1314 Kaharoa E lapilli,Silicic,Magmatic small to moderate,2E+08,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Kaharoa_F,Okataina,241050,Okataina Geology AD 1314 Kaharoa F lapilli,Silicic,Magmatic large,5E+08,PUB_VDD,1.1,26,27,CAL_PVD,3.0,CAL,D
+NZ_OKA_Kaharoa_G,Okataina,241050,Okataina Geology AD 1314 Kaharoa G lapilli,Silicic,Magmatic small to moderate,1E+08,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Kaharoa_HNW,Okataina,241050,Okataina Geology AD 1314 Kaharoa HNW lapilli,Silicic,Magmatic small to moderate,2E+07,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Kaharoa_HSE,Okataina,241050,Okataina Geology AD 1314 Kaharoa HSE lapilli,Silicic,Magmatic small to moderate,3E+08,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Kaharoa_I,Okataina,241050,Okataina Geology AD 1314 Kaharoa I lapilli,Silicic,Magmatic small to moderate,2E+08,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Kaharoa_J,Okataina,241050,Okataina Geology AD 1314 Kaharoa J lapilli,Silicic,Magmatic large,9E+08,PUB_VDD,1.1,24,25,CAL_PVD,1.8,CAL,D
+NZ_OKA_Kaharoa_KNE,Okataina,241050,Okataina Geology AD 1314 Kaharoa KNE lapilli,Silicic,Magmatic small to moderate,2E+08,PUB_VDD,1.1,,,,3.3,CAL,D
+NZ_OKA_Kaharoa_KNW,Okataina,241050,Okataina Geology AD 1314 Kaharoa KNW lapilli,Silicic,Magmatic small to moderate,5E+08,PUB_VDD,1.1,,,,2.7,CAL,D
+NZ_OKA_Kaharoa_L,Okataina,241050,Okataina Geology AD 1314 Kaharoa L lapilli,Silicic,Magmatic small to moderate,2E+08,PUB_VDD,1.1,,,,2.5,CAL,D
+NZ_OKA_Mangaone_B,Okataina,241050,Okataina Geology Mangaone B,Silicic,Magmatic large,1.87E+08,PUB_CAL,1.1,34,35,CAL_PVD,4.1,CAL,D
+NZ_OKA_Mangaone_C,Okataina,241050,Okataina Geology Mangaone C,Silicic,Magmatic large,8.55E+07,PUB_CAL,1.1,27,28,CAL_PVD,1.4,CAL,D
+NZ_OKA_Mangaone_D,Okataina,241050,Okataina Geology Mangaone D,Silicic,Magmatic large,2.70E+08,PUB_CAL,1.1,40,32,CAL_PVD_MID,6.7,CAL,D
+NZ_OKA_Mangaone_E,Okataina,241050,Okataina Geology Mangaone E,Silicic,Magmatic large,1.23E+08,PUB_CAL,1.1,31,32,CAL_PVD,1.8,CAL,D
+NZ_OKA_Mangaone_F,Okataina,241050,Okataina Geology Mangaone F,Silicic,Magmatic large,3.33E+08,PUB_CAL,1.1,42,27,CAL_PVD_MID,7.7,CAL,D
+NZ_OKA_Mangaone_G,Okataina,241050,Okataina Geology Mangaone G,Silicic,Magmatic large,1.44E+08,PUB_CAL,1.1,32,33,CAL_PVD,2.9,CAL,D
+NZ_OKA_Mangaone_I,Okataina,241050,Okataina Geology Mangaone I,Silicic,Magmatic large,3.00E+08,PUB_CAL,1.1,41,42,CAL_PVD,13.9,CAL,D
+NZ_OKA_Mangaone_J,Okataina,241050,Okataina Geology Mangaone J,Silicic,Magmatic large,6.24E+07,PUB_CAL,1.1,25,26,CAL_PVD,2.4,CAL,D
+NZ_OKA_Mangaone_K,Okataina,241050,Okataina Geology Mangaone K,Silicic,Magmatic large,3.90E+08,PUB_CAL,1.1,44,45,CAL_PVD,6.9,CAL,D
+NZ_OKA_Mangaone_L,Okataina,241050,Okataina Geology Mangaone L,Silicic,Magmatic large,1.97E+08,PUB_CAL,1.1,35,36,CAL_PVD,4.6,CAL,D
+NZ_OKA_Okareka_C,Okataina,241050,Okataina Geology 21.9 ka Okareka C,Silicic,Magmatic large,,,1.1,19,20,CAL_A02,,,D
+NZ_OKA_Rerewhakaaitu_A,Okataina,241050,Okataina Geology 17.6 ka Rerewhakaaitu A,Silicic,Magmatic large,,,1.1,15,16,CAL_A02_MID,,,D
+NZ_OKA_Rerewhakaaitu_E-J,Okataina,241050,Okataina Geology 17.6 ka Rerewhakaaitu E-J,Silicic,Magmatic large,,,1.1,23,24,CAL_A02_MID,,,D
+NZ_OKA_Rotorua_A,Okataina,241050,Okataina Geology 15.7 ka Rotorua Phase 1 A,Silicic,Magmatic large,1E+08,PUB_CAL_MAX,1.1,20,21,CAL_A02,3.5,CAL_MAX,D
+NZ_OKA_Rotorua_B,Okataina,241050,Okataina Geology 15.7 ka Rotorua Phase 1 B,Silicic,Magmatic large,1E+08,PUB_CAL_MAX,1.1,18,19,CAL_A02,3.5,CAL_MAX,D
+NZ_OKA_Rotorua_C,Okataina,241050,Okataina Geology 15.7 ka Rotorua Phase 1 C,Silicic,Magmatic large,1E+08,PUB_CAL_MAX,1.1,14,15,CAL_A02,3.5,CAL_MAX,D
+NZ_RAO_20060317,Raoul,242030,Raoul 2006 03 March 17,Mafic,Steam-driven,,,0.1,,,,0.1,INS,D
+NZ_RUA_19950923,Ruapehu,241100,Ruapehu 1995 09 September 23 ,Intermediate,Steam-driven,,,2.8,8,11,UDS_A06_MID,,,D
+NZ_RUA_19951011,Ruapehu,241100,Ruapehu 1995 10 October 11-12 ,Intermediate,Magmatic small to moderate,7E+06,THS_VDA,2.8,6,9,VIS_PVD_MID,8.0,INS,N
+NZ_RUA_19951014,Ruapehu,241100,Ruapehu 1995 10 October 14 ,Intermediate,Magmatic small to moderate,7E+06,THS_VDA,2.8,8,11,VIS_PVD_MAX,4.0,UDS,N
+NZ_RUA_19960617,Ruapehu,241100,Ruapehu 1996 06 June 17 ,Intermediate,Magmatic small to moderate,1E+08,THS_VDA,2.8,7,10,VIS_PVD_MID,8.0,UDS_HIA,N
+NZ_RUA_20070925,Ruapehu,241100,Ruapehu 2007 09 September 25,Intermediate,Steam-driven,1.0E+06,THS_CMD,2.8,1.7,4.5,VIS_PVD,0.1,INS_SHT,D
+NZ_RUA_Ak,Ruapehu,241100,Ruapehu Geology Akurangi,Intermediate,Magmatic large,3.0E+08,PUB_CAL_MID,2.8,27,30,CAL_A02_MID,3.2,CAL_MID,D
+NZ_RUA_Mgt,Ruapehu,241100,Ruapehu Geology Mangatoetoenui,Intermediate,Magmatic large,6.2E+07,PUB_CAL_MID,2.8,20,23,CAL_A02_MID,1.4,CAL_MID,D
+NZ_RUA_Okp,Ruapehu,241100,Ruapehu Geology Combined Lower & Upper Okupata,Intermediate,Magmatic large,7.9E+07,PUB_CAL_MID,2.8,25,28,CAL_A02_MID,1.7,CAL_MID,D
+NZ_RUA_Oru,Ruapehu,241100,Ruapehu Geology Oruamatua,Intermediate,Magmatic large,3.4E+08,PUB_CAL_MID,2.8,30,33,CAL_A02_MID,1.6,CAL_MID,D
+NZ_RUA_Sw,Ruapehu,241100,Ruapehu Geology Shawcroft,Intermediate,Magmatic large,2.0E+08,PUB_CAL_MID,2.8,26,29,CAL_A02_MID,1.3,CAL_MID,D
+NZ_RUA_U-Pk,Ruapehu,241100,Ruapehu Geology Upper Pahoka Tephra,Intermediate,Magmatic large,2.1E+08,PUB_CAL_MID,2.8,26,29,CAL_A02_MID,2.0,CAL_MID,D
+NZ_TAR_Burrell,Taranaki,241030,Taranaki Geology Burrell 1655 AD,Intermediate,Magmatic small to moderate,1.3E+07,PUB_CAL,2.5,14,17,CAL_A02,2.9,CAL,D
+NZ_TAR_Kaupokonui,Taranaki,241030,Taranaki Geology Kaupokonui,Mafic,Magmatic small to moderate,1.2E+07,PUB_CAL,2.5,14,17,CAL_A02,4.0,UDS,D
+NZ_TAR_Kw4,Taranaki,241030,Taranaki Geology Kokowai layer Kw4,Intermediate,Magmatic large,1.8E+08,PUB_CAL,2.5,28,30,CAL_A02,1.4,UDS_MID,D
+NZ_TAR_Kw7,Taranaki,241030,Taranaki Geology Kokowai layer Kw7,Mafic,Magmatic small to moderate,5.8E+07,PUB_CAL,2.5,21,23,CAL_A02,0.7,UDS,D
+NZ_TAR_MD1-MD3,Taranaki,241030,"Taranaki Geology Mangunui-D, layers MD1-MD3",Mafic,Magmatic large,1.1E+08,PUB_CAL,2.5,24,27,CAL_A02,2.2,UDS,D
+NZ_TAR_Uig7,Taranaki,241030,Taranaki Geology Upper Inglewood layer Uig7,Intermediate,Magmatic large,7.6E+07,PUB_CAL,2.5,22,25,CAL_A02,1.7,UDS,D
+NZ_TAU_1.8ka_1,Taupo,241070,Taupo Geology 1.8ka Unit 1,Silicic,Steam-driven,1E+05,PUB_UDS,2.5,,,,,,D
+NZ_TAU_1.8ka_2,Taupo,241070,Taupo Geology 1.8ka Unit 2,Silicic,Magmatic large,1E+07,PUB_UDS,2.5,,,,,,D
+NZ_TAU_1.8ka_3,Taupo,241070,Taupo Geology 1.8ka Unit 3,Silicic,Magmatic large,1E+06,PUB_UDS,2.5,,,,,,D
+NZ_TAU_1.8ka_4,Taupo,241070,Taupo Geology 1.8ka Unit 4,Silicic,Magmatic large,1E+06,PUB_UDS,2.5,,,,,,D
+NZ_TAU_1.8ka_5,Taupo,241070,Taupo Geology 1.8ka Unit 5,Silicic,Magmatic large,1E+08,PUB_UDS,2.5,34,36,CAL_A02_MID,,,D
+NZ_TON_18921130,Tongariro,241080,Upper Te Maari 1892 11 November 30 ,Intermediate,Steam-driven,,,1.5,0.9,2.4,VIS_A01,,,D
+NZ_TON_18961113,Tongariro,241080,Upper Te Maari 1896 11 November 13 Event 1,Intermediate,Magmatic small to moderate,,,1.5,,,,0.6,UDS,D
+NZ_TON_18961215,Tongariro,241080,Upper Ta Maari 1896 12 December 15 ,Intermediate,Magmatic small to moderate,,,1.5,,,,0.3,UDS,D
+NZ_TON_20120806,Tongariro,241080,Te Maari 2012 08 August 06,Intermediate,Steam-driven,,,1.5,8,9,INS_PVD_ERR,0.2,INS,D
+NZ_TON_20121121,Tongariro,241080,Te Maari 2012 11 November 21,Intermediate,Steam-driven,,,1.5,3.5,5.0,VIS_PVD_MID,0.1,VIS_SHT_APX,D
+NZ_TON_Ot_HC,Tongariro,241080,Tongariro Geology Mangamata Oturere Half Cone,Intermediate,Magmatic large,1.6E+08,PUB_CAL_MID,1.7,23,25,CAL_A02_ERR,11.3,CAL_MID,D
+NZ_TON_Ot_TL,Tongariro,241080,Tongariro Geology Mangamata Oturere Tama Lakes,Intermediate,Magmatic large,1.0E+08,PUB_CAL_MID,1.3,21,22,CAL_A02_ERR,11.3,CAL_MID,D
+NZ_TON_OW_HC,Tongariro,241080,Tongariro Geology Mangamata Ohinepango-Waihohonu Half Cone,Intermediate,Magmatic large,1.69E+08,PUB_CAL_MID,1.7,22,24,CAL_A02_ERR,33.5,CAL_MID,D
+NZ_TON_OW_TL,Tongariro,241080,Tongariro Geology Mangamata Ohinepango-Waihohonu Tama Lakes,Intermediate,Magmatic small to moderate,3.1E+07,PUB_CAL_MID,1.3,17,18,CAL_A02_ERR,15.0,CAL_MID,D
+NZ_TON_PtBL_E,Tongariro,241080,Tongariro Geology Mangamata Poutu Blue Lake E,Intermediate,Magmatic large,1.5E+08,PUB_CAL_MID,1.7,19,21,CAL_A02_ERR,20.1,CAL_MID,D
+NZ_TON_PtBL_NE,Tongariro,241080,Tongariro Geology Mangamata Poutu Blue Lake NE,Intermediate,Magmatic large,1.5E+08,PUB_CAL_MID,1.7,21,22,CAL_A02_ERR,20.1,CAL_MID,D
+NZ_TON_PtNC_N,Tongariro,241080,Tongariro Geology Mangamata Poutu North Crater N,Intermediate,Magmatic large,7.7E+07,PUB_CAL_MID,1.8,20,21,CAL_A02_ERR,9.1,CAL_MID,D
+NZ_TON_PtNC_NW,Tongariro,241080,Tongariro Geology Mangamata Poutu North Crater NW,Intermediate,Magmatic large,7.7E+07,PUB_CAL_MID,1.8,20,22,CAL_A02_ERR,9.1,CAL_MID,D
+NZ_TON_PtPN_SE,Tongariro,241080,Tongariro Geology Mangamata Poutu proto-Ngauruhoe,Intermediate,Magmatic large,1.30E+08,PUB_CAL_MID,1.8,24,26,CAL_A02_ERR,4.2,CAL_MID,D
+NZ_TON_Tt_HC,Tongariro,241080,Tongariro Geology Mangamata Te Rato Half Cone,Intermediate,Steam-driven,4.49E+08,PUB_CAL_MID,1.7,16,18,CAL_A02_ERR,7.6,CAL_MID,D
+NZ_TON_Tt_NC,Tongariro,241080,Tongariro Geology Mangamata Te Rato North Crater,Intermediate,Magmatic large,2.5E+07,PUB_CAL_MID,1.8,21,23,CAL_A02_ERR,2.0,CAL_MID,D
+NZ_TON_WP_TL,Tongariro,241080,Tongariro Geology Mangamata Wharepu Tama Lakes,Intermediate,Steam-driven,1.0E+08,PUB_CAL_MID,1.3,21,22,CAL_A02_ERR,35.9,CAL,D
+NZ_WHA_20130805,Whakaari,241040,Whakaari 2013 08 August 05,Intermediate,Steam-driven,,,0.0,,,,0.2,UDS_APX,D
+NZ_WHA_20131011,Whakaari,241040,Whakaari 2013 10 October 11 ,Intermediate,Steam-driven,,,0.0,,,,0.1,INS_SHT_APX,D
+NZ_WHA_20160427,Whakaari,241040,Whakaari 2016 04 April 27,Intermediate,Steam-driven,,,0.0,4.0,4.0,UDS_PVD,0.6,INS,D
+NZ_WHA_20191209,Whakaari,241040,Whakaari 2019 12 December 09,Intermediate,Steam-driven,,,0.0,3.7,3.7,INS_PVD_APX_FTS,0.1,UDS_SHT,D
+PH_PIN_19910612_0851,Pinatubo,273083,Pinatubo 1991 06 June 12 0851,Intermediate,Magmatic small to moderate,5E+06,THS_VDD,1.7,17,19,INS_PVD,0.8,INS_MID,N
+PH_PIN_19910612_2252,Pinatubo,273083,Pinatubo 1991 06 June 12 2252,Intermediate,Magmatic small to moderate,,,1.7,22,24,INS_PVD_MIN,0.2,UDS,D
+PH_PIN_19910613_0841,Pinatubo,273083,Pinatubo 1991 06 June 13 0841,Intermediate,Magmatic small to moderate,,,1.7,22,24,INS_PVD_MIN,0.1,UDS_SHT,D
+PH_PIN_19910614_1309,Pinatubo,273083,Pinatubo 1991 06 June 14 1309,Intermediate,Magmatic small to moderate,,,1.7,19,21,INS_PVD,0.1,UDS_SHT,D
+PH_PIN_19910615,Pinatubo,273083,Pinatubo 1991 06 June 15 climatic,Intermediate,Magmatic large,3E+08,PUB_UDS,1.7,32,34,SAT_PVD,3.0,INS,N
+RU_BZY_19560330,Bezymianny,300250,Bezymianny 1956 03 March 30,Intermediate,Magmatic large,5.6E+07,THS_CMD_ERR_IVS,3.1,37,40,UDS_PVD_ERR_IVS,2.5,UDS_ERR_IVS,Y
+RU_BZY_19841013,Bezymianny,300250,Bezymianny 1984 10 October 13,Intermediate,Magmatic small to moderate*,1.0E+05,THS_CMD_ERR_IVS,2.9,4.6,7.5,UDS_PVD_ERR_IVS,30.0,UDS_ERR_IVS,Y
+RU_BZY_20050111,Bezymianny,300250,Bezymianny 2005 01 January 11,Intermediate,Magmatic small to moderate*,2.4E+06,THS_CMD_ERR_IVS,2.9,,,,5.8,UDS_ERR_IVS,Y
+RU_BZY_20061224,Bezymianny,300250,Bezymianny 2006 12 December 24,Intermediate,Magmatic small to moderate*,1.4E+06,THS_CMD_ERR_IVS,2.9,11,14,UDS_PVD_ERR_IVS,1.0,UDS_ERR_IVS,Y
+RU_BZY_20091217,Bezymianny,300250,Bezymianny 2009 12 December 17,Intermediate,Magmatic small to moderate*,3.3E+05,THS_CMD_ERR_IVS,2.9,8,11,UDS_PVD_ERR_IVS,2.9,UDS_ERR_IVS,Y
+RU_CHC_19730715,Chachadake,290030,Chachadake 1973 07 July 15,Mafic,Magmatic small to moderate,7.5E+05,THS_CMD_ERR_IVS,0.5,8,8,UDS_PVD_ERR_IVS,96.0,UDS_ERR_IVS,Y
+RU_CHK_19861120,Chikurachki,290360,Chikurachki 1986 11 November 20,Mafic,Magmatic small to moderate,1.0E+06,THS_CMD_ERR_IVS,1.8,8,10,UDS_PVD_ERR_IVS,72.0,UDS_ERR_IVS,Y
+RU_SYV_20090612,Sarychev Peak,290240,Sarychev Peak 2009 06 June 12,Intermediate,Magmatic small to moderate*,1.3E+06,THS_CMD_ERR_IVS,1.5,11,12,UDS_PVD_ERR_IVS,87.0,UDS_ERR_IVS,Y
+US_ANA_20030510,Anatahan,284200,Anatahan 2003 05 May 10,Intermediate,Steam-driven,2.3E+05,THS_CMD_ERR_IVS,0.0,8,8,UDS_PVD_ERR_IVS,35.0,UDS_ERR_IVS,Y
+US_ANA_20030613,Anatahan,284200,Anatahan 2003 06 June 13,Intermediate,Steam-driven,5.4E+04,THS_CMD_ERR_IVS,0.0,2.5,2.5,UDS_PVD_ERR_IVS,48.0,UDS_ERR_IVS,Y
+US_AUG_20060617,Augustine,313010,Augustine 2006 06 June 17,Intermediate,Magmatic small to moderate*,6.9E+06,THS_CMD_ERR_IVS,1.3,12,14,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+US_CLV_20010219,Mt Cleveland,311240,Mt Cleveland 2001 02 February 19 ,Intermediate,Magmatic small to moderate,,,1.7,8,10,VIS_A03_MID,8.0,SAT,D
+US_CLV_20010311,Mt Cleveland,311240,Mt Cleveland 2001 03 March 11 ,Intermediate,Magmatic small to moderate,,,1.7,8,10,UDS_A06,3.0,SAT,D
+US_CLV_20010319,Mt Cleveland,311240,Mt Cleveland 2001 03 March 19,Intermediate,Magmatic small to moderate,,,1.7,9,11,UDS_A06_MAX,6.0,UDS_MAX,D
+US_KAS_20080807a,Kasatochi,311130,Kasatochi 2008 08 August 7-8 Explosive Event 1,Intermediate,Steam-driven,,,0.3,14,14,SAT_A03,1.0,INS_APX,N
+US_KAS_20080807b,Kasatochi,311130,Kasatochi 2008 08 August 7-8 Explosive Event 2,Intermediate,Steam-driven,,,0.3,14,14,SAT_A03,0.5,INS_APX,N
+US_KAS_20080807c,Kasatochi,311130,Kasatochi 2008 08 August 7-8 Explosive Event 3,Intermediate,Magmatic small to moderate,1.6E+07,PUB_CAL,0.3,18,18,SAT_A03,0.5,INS_APX,N
+US_MSH_19800327,Mt St Helens,321050,Mt St Helens 1980 03 March 27 ,Intermediate,Steam-driven,,,3.0,2.0,5.0,VIS_PVD,,,D
+US_MSH_19800328,Mt St Helens,321050,Mt St Helens 1980 03 March 28,Intermediate,Steam-driven,,,3.0,,,,2.0,VIS_MAX,D
+US_MSH_19800518,Mt St Helens,321050,Mt St Helens 1980 05 May 18,Intermediate,Magmatic large,2E+07,PUB_UDS,3.0,14,17,UDS_PVD_ERR_IVS,9.0,UDS,U_C_
+US_MSH_19800525,Mt St Helens,321050,Mt St Helens 1980 05 May 25,Intermediate,Magmatic small to moderate,2E+07,PUB_UDS,2.6,6,9,UDS_PVD_ERR_IVS,0.5,UDS_MAX,U_C_
+US_MSH_19800612,Mt St Helens,321050,Mt St Helens 1980 06 June 12,Intermediate,Magmatic small to moderate,2E+07,PUB_UDS,2.6,7,10,UDS_PVD_ERR_IVS,0.5,UDS,U_C_
+US_MSH_19800722a,Mt St Helens,321050,Mt St Helens 1980 07 July 22 A,Intermediate,Magmatic small to moderate,,,2.6,11,14,UDS_PVD,0.1,UDS_APX,N
+US_MSH_19800722b,Mt St Helens,321050,Mt St Helens 1980 07 July 22 B,Intermediate,Magmatic small to moderate,,,2.6,14,18,UDS_PVD_MIN,0.4,UDS_APX,N
+US_MSH_19800722c,Mt St Helens,321050,Mt St Helens 1980 07 July 22 C,Intermediate,Magmatic small to moderate,,,2.6,11,14,UDS_PVD_MAX,2.7,UDS_APX,N
+US_MSH_19800807a,Mt St Helens,321050,Mt St Helens 1980 08 August 07 A,Intermediate,Magmatic small to moderate,3.00E+06,THS_CMD,2.6,10,13,UDS_A06,0.1,UDS_MIN,D
+US_MSH_19801016,Mt St Helens,321050,Mt St Helens 1980 10 October 16,Intermediate,Magmatic small to moderate,,,2.6,,,,0.1,UDS,D
+US_MSH_20041001,Mt St Helens,321050,Mt St Helens 2004 10 October 01,Intermediate,Magmatic small to moderate,,,2.1,2.4,4.5,VIS_PVD,0.3,INS,D
+US_MSH_20041003,Mt St Helens,321050,Mt St Helens 2004 10 October 03,Intermediate,Magmatic small to moderate,,,2.1,0.4,2.5,VIS_PVD,0.4,INS_APX,D
+US_MSH_20041004,Mt St Helens,321050,Mt St Helens 2004 10 October 04,Intermediate,Magmatic small to moderate,,,2.1,1.5,3.7,VIS_PVD,0.5,INS_APX,D
+US_MSH_20041005,Mt St Helens,321050,Mt St Helens 2004 10 October 05,Intermediate,Magmatic small to moderate,,,2.1,2.4,4.5,UDS_PVD,1.2,INS,D
+US_MSH_20050116,Mt St Helens,321050,Mt St Helens 2005 01 January 16,Intermediate,Magmatic small to moderate,,,2.1,,,,0.6,INS_APX,D
+US_MSH_20050308,Mt St Helens,321050,Mt St Helens 2005 03 March 08,Intermediate,Magmatic small to moderate,4E+05,PUB_UDS,2.1,7,9,VIS_PVD,0.3,INS_APX,D
+US_NVR_1912_I,Novarupta,312180,Novarupta Geology 1912 CE Episode I,Silicic,Magmatic large,9E+07,PUB_CAL_MID,0.8,25,26,CAL_A02_MID,16.0,UDS,D
+US_NVR_1912_II,Novarupta,312180,Novarupta Geology 1912 CE Episode II,Intermediate,Magmatic large,1E+08,PUB_CAL_MID,0.8,24,24,CAL_A02_MID,16.0,UDS_MAX,D
+US_NVR_1912_III,Novarupta,312180,Novarupta Geology 1912 CE Episode III,Intermediate,Magmatic large,3E+07,PUB_CAL_MID,0.8,20,21,CAL_A02_MID,16.0,UDS_MAX,D
+US_OKM_20081207Basal,Okmok,311290,Okmok 2008 07 July 12 Basal,Mafic,Steam-driven,1.4E+07,THS_CMD_ERR_IVS,1.1,15,17,UDS_PVD_ERR_IVS,4.0,UDS_ERR_IVS,Y
+US_OKM_20081207Upper,Okmok,311290,Okmok 2008 07 July 12 Upper,Mafic,Steam-driven,2.9E+05,THS_CMD_ERR_IVS,1.1,6,7,UDS_PVD_ERR_IVS,908.0,UDS_ERR_IVS,Y
+US_RDB_19891214,Redoubt,313030,Redoubt 1989 12 December 14,Intermediate,Steam-driven,5E+05,THS_CMD_MID,3.1,6,9,UDS_PVD_ERR_IVS,0.4,INS,U_C_
+US_RDB_19891215,Redoubt,313030,Redoubt 1989 12 December 15,Intermediate,Steam-driven,5.3E+06,THS_CMD_MID,3.1,8,11,UDS_PVD_ERR_IVS,1.1,INS,U_C_
+US_RDB_19891219,Redoubt,313030,Redoubt 1989 12 December 19,Intermediate,Steam-driven,7E+05,THS_CMD_MID,3.1,3.4,6.5,UDS_PVD_ERR_IVS,0.2,INS,U_C_
+US_RDB_19900103,Redoubt,313030,Redoubt 1990 01 January 02,Intermediate,Magmatic small to moderate*,7.5E+06,THS_CMD_ERR_IVS,3.1,9,12,UDS_PVD_ERR_IVS,1.5,UDS_ERR_IVS,Y
+US_RDB_19900108,Redoubt,313030,Redoubt 1990 01 January 08,Intermediate,Magmatic small to moderate*,8.3E+06,THS_CMD_ERR_IVS,3.1,8,12,UDS_PVD_ERR_IVS,0.3,UDS_ERR_IVS,Y
+US_RDB_19900117,Redoubt,313030,Redoubt 1990 01 January 16,Intermediate,Magmatic small to moderate*,4.5E+06,THS_CMD_ERR_IVS,3.1,8,12,UDS_PVD_ERR_IVS,0.2,UDS_ERR_IVS,Y
+US_RDB_19900215,Redoubt,313030,Redoubt 1990 02 February 15,Intermediate,Magmatic small to moderate*,7.3E+06,THS_CMD_ERR_IVS,3.1,8,11,UDS_PVD_ERR_IVS,0.3,UDS_ERR_IVS,Y
+US_RDB_19900221,Redoubt,313030,Redoubt 1990 02 February 21,Intermediate,Magmatic small to moderate*,6.9E+06,THS_CMD_ERR_IVS,3.1,7,11,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900224,Redoubt,313030,Redoubt 1990 02 February 24,Intermediate,Magmatic small to moderate*,8.3E+06,THS_CMD_ERR_IVS,3.1,5,9,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+US_RDB_19900228,Redoubt,313030,Redoubt 1990 02 February 28,Intermediate,Magmatic small to moderate*,5.7E+06,THS_CMD_ERR_IVS,3.1,5,9,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+US_RDB_19900304,Redoubt,313030,Redoubt 1990 03 March 04,Intermediate,Magmatic small to moderate*,9.3E+06,THS_CMD_ERR_IVS,3.1,9,13,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900309,Redoubt,313030,Redoubt 1990 03 March 09,Intermediate,Magmatic small to moderate*,2.2E+06,THS_CMD_ERR_IVS,3.1,7,11,UDS_PVD_ERR_IVS,0.2,UDS_ERR_IVS,Y
+US_RDB_19900314,Redoubt,313030,Redoubt 1990 03 March 14,Intermediate,Magmatic small to moderate*,1.9E+06,THS_CMD_ERR_IVS,3.1,3.9,7.0,UDS_PVD_ERR_IVS,0.2,UDS_ERR_IVS,Y
+US_RDB_19900323,Redoubt,313030,Redoubt 1990 03 March 23,Intermediate,Magmatic small to moderate*,1.0E+06,THS_CMD_ERR_IVS,3.1,6,9,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900329,Redoubt,313030,Redoubt 1990 03 March 28,Intermediate,Magmatic small to moderate*,4.2E+06,THS_CMD_ERR_IVS,3.1,9,12,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900406,Redoubt,313030,Redoubt 1990 04 April 06,Intermediate,Magmatic small to moderate*,2.1E+06,THS_CMD_ERR_IVS,3.1,6,9,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900415,Redoubt,313030,Redoubt 1990 04 April 15,Intermediate,Magmatic small to moderate*,3.5E+06,THS_CMD_ERR_IVS,3.1,7,10,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
+US_RDB_19900421,Redoubt,313030,Redoubt 1990 04 April 21,Intermediate,Magmatic small to moderate*,4.8E+06,THS_CMD_ERR_IVS,3.1,7,10,UDS_PVD_ERR_IVS,0.1,UDS_SHT_ERR_IVS,Y
+US_RDB_20090323Event5,Redoubt,313030,Redoubt 2009 03 March 23 Event 5,Intermediate,Magmatic small to moderate,4.4E+06,THS_CMD_ERR_IVS,2.3,13,15,UDS_PVD_ERR_IVS,0.3,UDS_ERR_IVS,Y
+US_RDB_20090323Events1to4,Redoubt,313030,Redoubt 2009 03 March 23 Events 1-4,Intermediate,Magmatic small to moderate,3.2E+06,THS_CMD_ERR_IVS,2.3,11,13,UDS_PVD_ERR_IVS,0.8,UDS_ERR_IVS,Y
+US_RDB_20090324,Redoubt,313030,Redoubt 2009 03 March 24,Intermediate,Magmatic small to moderate,1.6E+07,THS_CMD_ERR_IVS,2.3,16,18,UDS_PVD_ERR_IVS,0.3,UDS_ERR_IVS,Y
+US_RDB_20090326,Redoubt,313030,Redoubt 2009 03 March 26,Intermediate,Magmatic small to moderate,5.5E+06,THS_CMD_ERR_IVS,2.3,16,18,UDS_PVD_ERR_IVS,0.2,UDS_ERR_IVS,Y
+US_RDB_20090327,Redoubt,313030,Redoubt 2009 03 March 27,Intermediate,Magmatic small to moderate,3.7E+06,THS_CMD_ERR_IVS,2.3,11,13,UDS_PVD_ERR_IVS,1.0,UDS_ERR_IVS,Y
+US_RDB_20090404,Redoubt,313030,Redoubt 2009 04 April 04,Intermediate,Magmatic small to moderate,4.3E+06,THS_CMD_ERR_IVS,2.3,13,15,UDS_PVD_ERR_IVS,0.5,UDS_ERR_IVS,Y
+US_SHS_19990419,Shishaldin,311360,Shishaldin 1999 04 April 19,Mafic,Magmatic small to moderate,3.8E+06,THS_CMD_ERR_IVS,2.9,12,15,UDS_PVD_ERR_IVS,2.7,UDS_ERR_IVS,Y
+US_SPR_19920627,Mt Spurr,313040,Mt Spurr 1992 06 June 27,Intermediate,Magmatic small to moderate,2.1E+06,PUB_CMD,3.4,11,15,UDS_PVD_ERR_IVS,4.0,INS,U_C_
+US_SPR_19920818,Mt Spurr,313040,Mt Spurr 1992 08 August 18,Intermediate,Magmatic small to moderate,2.9E+06,PUB_CMD,3.4,10,14,UDS_PVD_ERR_IVS,3.5,UDS,U_C_
+US_SPR_19920917,Mt Spurr,313040,Mt Spurr 1992 09 September 17,Intermediate,Magmatic small to moderate,3.0E+06,PUB_CMD,3.4,11,14,UDS_PVD_ERR_IVS,3.4,UDS,U_C_
+VC_SSV_19020507,Soufriere St Vincent,360150,Soufriere St Vincent 1902 05 May 07,Intermediate,Magmatic small to moderate,4E+07,PUB_UDS,1.2,13,14,VIS_A06,3.0,UDS_MID,D
+VC_SSV_19790426,Soufriere St Vincent,360150,Soufriere St Vincent 1979 04 April 26,Intermediate,Steam-driven,3.4E+06,THS_CMD_ERR_IVS,1.2,13,14,UDS_PVD_ERR_IVS,0.1,UDS_ERR_IVS,Y
