@@ -51,7 +51,7 @@ def read_db(remove_calculated=True):
             return 1
         return 0
             
-    df = pd.read_csv(get_data('/data/SR2021-12 Spreadsheet.csv'),
+    df = pd.read_csv(get_data('/data/SR2021-12 Spreadsheet_IVESPA.csv'),
                      usecols=[1,4,6,7,8,9,11,12,13],
                      converters={6:str2float, 7:str2cat, 8:str2float,
                                  9:str2float, 11:str2cat, 12:str2float,
