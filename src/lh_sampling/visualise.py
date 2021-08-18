@@ -29,8 +29,8 @@ def lhs_example_plot(seed=None):
         t_samples = np.dot(U, samples)
         t_samples += np.array(mean)[:, np.newaxis]
         mc_mean.append(t_samples[0].mean())
-        mc_cov[i, :] = np.cov(t_samples)
-        
+        mc_cov[i, :] = np.cov(t_samples, ddof=1)        
+
         lh_samples_x = norm.ppf(u_lh[:, 0], loc=0, scale=1)
         lh_samples_y = norm.ppf(u_lh[:, 1], loc=0, scale=1)
         lh_samples = np.vstack((lh_samples_x, lh_samples_y))
@@ -65,7 +65,7 @@ def lhs_example_plot(seed=None):
                              y=np.unique(y),
                              coloraxis='coloraxis',
                              showscale=False), row=1, col=1)
-    u, u_lh = lhs(2, 20, seed=seed, return_original=True)
+    u, u_lh = lhs(2, 30, seed=seed, return_original=True)
     lh_samples_x = norm.ppf(u_lh[:, 0], loc=0, scale=1)
     lh_samples_y = norm.ppf(u_lh[:, 1], loc=0, scale=1)
     lh_samples = np.vstack((lh_samples_x, lh_samples_y))
@@ -138,15 +138,24 @@ def plot_lhs(nsamples=14, figname=None):
     if figname is not None:
         fig.savefig(figname, bbox_inches='tight', dpi=300)
 
-def scatter_matrix_plot(df, hue):
+def scatter_matrix_plot(df, hue='Category', log=True):
     """
     Scatter matrix plot of eruption parameters.
     """
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        g = sns.PairGrid(df, vars=['log Duration', 'log MER',
-                                   'log Column height'], hue=hue,
-                         diag_sharey=False, height=3)
+        if log:
+            g = sns.PairGrid(df, vars=['log Duration', 'log MER',
+                                       'log Column height'], hue=hue,
+                             diag_sharey=False, height=3)
+        else:
+            df_lin = df.copy()
+            df_lin['MER [kg/s]'] = np.exp(df_lin['log MER'])
+            df_lin['Column height [km]'] = np.exp(df_lin['log Column height'])
+            df_lin['Duration [h]'] = np.exp(df_lin['log Duration'])
+            g = sns.PairGrid(df_lin, vars=['Duration [h]', 'MER [kg/s]',
+                                       'Column height [km]'], hue=hue,
+                             diag_sharey=False, height=3)
         g.map_upper(sns.scatterplot, s=15)
         g.map_lower(sns.kdeplot)
         g.map_diag(sns.ecdfplot, lw=2)
