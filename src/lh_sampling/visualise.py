@@ -11,6 +11,17 @@ from lh_sampling.sampler import lhs
 
 
 def lhs_example_plot(seed=None):
+    """
+    Demonstrate performance of LHS by comparing Monte Carlo and LHS
+    samples from a multivariate Gaussian.
+
+    Parameters:
+    seed : int
+           The random seed to initialise the samplers.
+    """
+    myblue = 'rgb(69,117,180)'
+    myred = 'rgb(215,48,39)'
+    mygray = 'rgba(77,77,77,0.7)'
     mean = [0.5, -0.2]
     cov = [[2.0, 0.5], [0.5, 0.5]]
     rv = multivariate_normal(mean, cov)
@@ -44,19 +55,25 @@ def lhs_example_plot(seed=None):
                                         'Latin Hypercube', '',
                                         'Monte Carlo', ''])
     fig.add_trace(go.Scatter(x=nsamples, y=lh_mean, mode='lines', name='Latin Hypercube',
-                             line=dict(color='red')), row=1, col=2)
+                             line=dict(color=myred)), row=1, col=2)
     fig.add_trace(go.Scatter(x=nsamples, y=mc_mean, mode='lines', name='Monte Carlo',
-                             line=dict(color='blue')), row=1, col=2)
+                             line=dict(color=myblue)), row=1, col=2)
+    fig.add_trace(go.Scatter(x=nsamples, y=np.ones(len(nsamples))*mean[0], mode='lines', name='True value',
+                             line=dict(color=mygray, dash='dash')), row=1, col=2)
     
     fig.add_trace(go.Scatter(x=nsamples, y=lh_cov[:, 0, 0] , mode='lines',
-                             line=dict(color='red'), showlegend=False), row=2, col=2)
+                             line=dict(color=myred), showlegend=False), row=2, col=2)
     fig.add_trace(go.Scatter(x=nsamples, y=mc_cov[:, 0, 0], mode='lines',
-                             line=dict(color='blue'), showlegend=False), row=2, col=2)
+                             line=dict(color=myblue), showlegend=False), row=2, col=2)
+    fig.add_trace(go.Scatter(x=nsamples, y=np.ones(len(nsamples))*cov[0][0], mode='lines', 
+                             line=dict(color=mygray, dash='dash'), showlegend=False), row=2, col=2)
     
     fig.add_trace(go.Scatter(x=nsamples, y=lh_cov[:, 1, 0] , mode='lines',
-                             line=dict(color='red'), showlegend=False), row=3, col=2)
+                             line=dict(color=myred), showlegend=False), row=3, col=2)
     fig.add_trace(go.Scatter(x=nsamples, y=mc_cov[:, 1, 0], mode='lines',
-                             line=dict(color='blue'), showlegend=False), row=3, col=2)
+                             line=dict(color=myblue), showlegend=False), row=3, col=2)
+    fig.add_trace(go.Scatter(x=nsamples, y=np.ones(len(nsamples))*cov[1][0], mode='lines', 
+                             line=dict(color=mygray, dash='dash'), showlegend=False), row=3, col=2)
     
     x, y = np.mgrid[-3:3.5:.01, -2.5:2:.01]
     pos = np.dstack((x, y))
@@ -145,14 +162,14 @@ def scatter_matrix_plot(df, hue='Category', log=True):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         if log:
-            g = sns.PairGrid(df, vars=['log Duration', 'log MER',
-                                       'log Column height'], hue=hue,
+            g = sns.PairGrid(df, vars=['log Duration [h]', 'log MER [kg/s]',
+                                       'log Column height [km]'], hue=hue,
                              diag_sharey=False, height=3)
         else:
             df_lin = df.copy()
-            df_lin['MER [kg/s]'] = np.exp(df_lin['log MER'])
-            df_lin['Column height [km]'] = np.exp(df_lin['log Column height'])
-            df_lin['Duration [h]'] = np.exp(df_lin['log Duration'])
+            df_lin['MER [kg/s]'] = np.exp(df_lin['log MER [kg/s]'])
+            df_lin['Column height [km]'] = np.exp(df_lin['log Column height [km]'])
+            df_lin['Duration [h]'] = np.exp(df_lin['log Duration [h]'])
             g = sns.PairGrid(df_lin, vars=['Duration [h]', 'MER [kg/s]',
                                        'Column height [km]'], hue=hue,
                              diag_sharey=False, height=3)
