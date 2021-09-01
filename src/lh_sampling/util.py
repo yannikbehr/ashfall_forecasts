@@ -70,8 +70,8 @@ def read_db(remove_calculated=True):
     # Add log columns
     df['Volume'] = df['MER'] * df['Duration']
     df['log Volume'] = np.log(df['Volume'])
-    df['log MER'] = np.log(df['MER'])
-    df['log Column height'] = np.log(df['Column_height'])
-    df['log Duration'] = np.log(df['Duration'])
+    df['log MER [kg/s]'] = np.log(df['MER'])
+    df['log Column height [km]'] = np.log(df['Column_height'])
+    df['log Duration [h]'] = np.log(df['Duration'])
     
     return df
