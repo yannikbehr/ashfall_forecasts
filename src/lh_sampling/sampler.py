@@ -76,7 +76,7 @@ def resample(df, nsamples=30, centered=True, seed=None,
     if constraints is not None:
         cs = np.ones(lh_samples.shape)
         cs *= np.atleast_2d(np.array(constraints)).T
-        lh_samples = np.where(lh_samples > cs, np.nan, lh_samples)
+        lh_samples = np.where(lh_samples > cs, cs, lh_samples)
         
     dfr = pd.DataFrame(np.vstack((vals, lh_samples.T)), columns=df.columns)
     dfr['Category'] = np.r_[['original']*vals.shape[0],
