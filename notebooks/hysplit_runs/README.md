@@ -1,3 +1,5 @@
+# HYPLIT model dataset
+
 Each folder named like a date (YYYYmmddHHMM) has a case study and it's name after eruption start time.
 
   * `201208061200` - Historical case study for eruption starting at 2012-08-06T12:00 UTC
