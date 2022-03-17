@@ -7,5 +7,7 @@ Each case study folder has :
   - `input` folder with the eruption source parameters, sampled with Latin Hyspercube technique, used to configure each HYSPLIT run.
   - `output` folder with the HYSPLIT modelling results processed to cumulative deposited ash thickness netcdf file.
 
+Data set available at [DOI:10.5281/zenodo.6363618](https://doi.org/10.5281/zenodo.6363618).
+
 
 
