@@ -12,4 +12,7 @@ Each case study folder has :
 Data set available at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6363619.svg)](https://doi.org/10.5281/zenodo.6363619)
 
 
+Notebooks:
+  * `plot_ens` - plot ensemble metrics
+  * `plot_deterministic` - plots for each scenario
 
