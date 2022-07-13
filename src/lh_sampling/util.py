@@ -50,10 +50,16 @@ def read_db(remove_calculated=True):
         if val.find('CAL') != -1:
             return 1
         return 0
+    
+    def str2str(val):
+        if val.find('Magmatic small to moderate*') !=-1:
+            return 'Magmatic small to moderate'
+        else:
+            return val
             
     df = pd.read_csv(get_data('/data/SR2021-12 Spreadsheet_IVESPA.csv'),
-                     usecols=[1,4,6,7,8,9,11,12,13],
-                     converters={6:str2float, 7:str2cat, 8:str2float,
+                     usecols=[1,4,5,6,7,8,9,11,12,13],
+                     converters={5: str2str, 6:str2float, 7:str2cat, 8:str2float,
                                  9:str2float, 11:str2cat, 12:str2float,
                                  13:str2cat})
     df.rename(columns={'MER_kg/s':'MER', 'Vent_elevation_km':'Vent_elevation',
