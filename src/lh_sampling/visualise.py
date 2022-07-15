@@ -2,6 +2,7 @@ import warnings
 
 import numpy as np
 from scipy.stats import norm, multivariate_normal
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.graph_objects as go
@@ -135,6 +136,7 @@ def lhs_example_plot(seed=None):
     fig.update_layout(height=800, width=800)
     return fig
 
+
 def plot_lhs(nsamples=14, figname=None):
     ro, rs = lhs(2, nsamples, return_original=True,
                  seed=0)
@@ -155,6 +157,37 @@ def plot_lhs(nsamples=14, figname=None):
     if figname is not None:
         fig.savefig(figname, bbox_inches='tight', dpi=300)
 
+
+def my_pair_grid_plot(data, vars, hue):
+    g = sns.PairGrid(data, vars=vars, hue=hue,
+                     diag_sharey=False, height=0.1, layout_pad=5, despine=True, corner=False)
+    # Monkey patch the figure instance. Ugly but I couldn't find any other way
+    height=3
+    aspect=1
+    figsize = 3 * height * aspect, 3 * height
+    with mpl.rc_context({"figure.autolayout": False}):
+        fig = plt.figure(figsize=figsize)
+    axes = fig.subplots(3, 3, sharex="col", sharey=False, squeeze=False)
+    fig.tight_layout(pad=2)
+    g.axes = axes
+    g._figure = fig
+    g.map_upper(sns.scatterplot, s=15)
+    g.map_lower(sns.kdeplot)
+    g.map_diag(sns.ecdfplot, lw=2)
+
+    g.axes[0,0].set_ylabel('Cumulative Duration')
+    g.axes[1,1].set_ylabel('Cumulative MER')
+    g.axes[2,2].set_ylabel('Cumulative Column height')
+    g.axes[1, 2].set_yticks(g.axes[1,0].get_yticks())
+    g.axes[1, 2].set_ylim(g.axes[1,0].get_ylim())
+    g.axes[0, 2].set_yticks(g.axes[0,1].get_yticks())
+    g.axes[0, 2].set_ylim(g.axes[0,1].get_ylim())
+    g.axes[2, 1].set_yticks(g.axes[2,0].get_yticks())
+    g.axes[2, 1].set_ylim(g.axes[2,0].get_ylim())
+    g.add_legend()
+    return fig
+
+
 def scatter_matrix_plot(df, hue='Category', log=True):
     """
     Scatter matrix plot of eruption parameters.
@@ -162,20 +195,14 @@ def scatter_matrix_plot(df, hue='Category', log=True):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         if log:
-            g = sns.PairGrid(df, vars=['log10 Duration [h]', 'log10 MER [kg/s]',
-                                       'log10 Column height [km]'], hue=hue,
-                             diag_sharey=False, height=3)
+            g = my_pair_grid_plot(df, vars=['log10 Duration [h]', 'log10 MER [kg/s]',
+                                            'log10 Column height [km]'], hue=hue)
         else:
             df_lin = df.copy()
             df_lin['MER [kg/s]'] = np.exp(df_lin['log10 MER [kg/s]'])
             df_lin['Column height [km]'] = np.exp(df_lin['log10 Column height [km]'])
             df_lin['Duration [h]'] = np.exp(df_lin['log10 Duration [h]'])
-            g = sns.PairGrid(df_lin, vars=['Duration [h]', 'MER [kg/s]',
-                                       'Column height [km]'], hue=hue,
-                             diag_sharey=False, height=3)
-        g.map_upper(sns.scatterplot, s=15)
-        g.map_lower(sns.kdeplot)
-        g.map_diag(sns.ecdfplot, lw=2)
-        g.add_legend()
+            g = my_pair_grid_plot(df_lin, vars=['Duration [h]', 'MER [kg/s]',
+                                                'Column height [km]'], hue=hue)
         return g
 
