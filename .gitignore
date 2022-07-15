@@ -1,0 +1,7 @@
+notebooks/hysplit_runs/202107150000/
+*-checkpoint*
+notebooks/plots/
+*.pyc
+*egg-info
+notebooks/hysplit_runs/*.png
+notebooks/data/lh_sample_intermediate.csv
