@@ -11,5 +11,7 @@ dependencies:
   - python-kaleido
   - ipykernel
   - nbformat
+  - netcdf4
+  - dask
   - xarray
   - cartopy
