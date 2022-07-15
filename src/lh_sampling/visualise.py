@@ -162,14 +162,14 @@ def scatter_matrix_plot(df, hue='Category', log=True):
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         if log:
-            g = sns.PairGrid(df, vars=['log Duration [h]', 'log MER [kg/s]',
-                                       'log Column height [km]'], hue=hue,
+            g = sns.PairGrid(df, vars=['log10 Duration [h]', 'log10 MER [kg/s]',
+                                       'log10 Column height [km]'], hue=hue,
                              diag_sharey=False, height=3)
         else:
             df_lin = df.copy()
-            df_lin['MER [kg/s]'] = np.exp(df_lin['log MER [kg/s]'])
-            df_lin['Column height [km]'] = np.exp(df_lin['log Column height [km]'])
-            df_lin['Duration [h]'] = np.exp(df_lin['log Duration [h]'])
+            df_lin['MER [kg/s]'] = np.exp(df_lin['log10 MER [kg/s]'])
+            df_lin['Column height [km]'] = np.exp(df_lin['log10 Column height [km]'])
+            df_lin['Duration [h]'] = np.exp(df_lin['log10 Duration [h]'])
             g = sns.PairGrid(df_lin, vars=['Duration [h]', 'MER [kg/s]',
                                        'Column height [km]'], hue=hue,
                              diag_sharey=False, height=3)
