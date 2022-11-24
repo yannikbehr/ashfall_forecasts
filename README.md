@@ -2,7 +2,7 @@
 This library provides the codes to prepare and analyse probabilistic
 ashfall forecasts using Latin Hypercube Sampling and Numerical Weather Prediction Model ensembles. Producing the probabilistic forecasts requires
 an ashfall forecasting model like [HYSPLIT](https://ready.arl.noaa.gov/HYSPLIT.php). Details on this work can be
-found [here](https://www.researchsquare.com/article/rs-1479358/latest.pdf).
+found [here](https://link.springer.com/article/10.1186/s13617-022-00123-0).
 
 ## Installation
 ### Install the conda environment
