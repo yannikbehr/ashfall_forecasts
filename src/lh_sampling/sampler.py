@@ -52,7 +52,8 @@ def resample(df, nsamples=30, centered=True, seed=None,
     Resample a dataset using Latin Hypercube samples.
     """
     vals = df.values.astype(float)
-    
+    vals_original = vals.copy()
+
     if constraints is not None:
         cs = np.ones(vals.shape)
         cs *= np.array(constraints)
@@ -78,8 +79,8 @@ def resample(df, nsamples=30, centered=True, seed=None,
         cs *= np.atleast_2d(np.array(constraints)).T
         lh_samples = np.where(lh_samples > cs, cs, lh_samples)
         
-    dfr = pd.DataFrame(np.vstack((vals, lh_samples.T)), columns=df.columns)
-    dfr['Category'] = np.r_[['original']*vals.shape[0],
+    dfr = pd.DataFrame(np.vstack((vals_original, lh_samples.T)), columns=df.columns)
+    dfr['Category'] = np.r_[['original']*vals_original.shape[0],
                             ['resampled']*lh_samples.shape[1]]
     return dfr
 
